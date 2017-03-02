@@ -10,7 +10,7 @@ var env = {
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express', env: env, loginUrl: 'TODO- Sorry' });
+  res.render('index', { title: 'Express', env: env});
 });
 
 
